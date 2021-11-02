@@ -1,0 +1,37 @@
+{
+  "name": "xenon-bot-javascript-edition",
+  "version": "1.0.0",
+  "description": "non-official xenon bot JavaScript edition , a bot for backup discord servers and more features .",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AZSR",
+  "license": "ISC",
+  "dependencies": {
+    "approximate-number": "^2.0.0",
+    "discord-buttons": "^4.0.0",
+    "discord-embeds-pages-buttons": "^1.3.0",
+    "discord.js": "^12.5.3",
+    "djs-commands": "^1.2.2",
+    "fs": "0.0.1-security",
+    "hastebin-gen": "^2.0.5",
+    "moment": "^2.29.1",
+    "ms": "^2.1.3",
+    "old-wio.db": "^4.0.10",
+    "quick.db": "^7.1.3",
+    "srod-v2": "^1.0.2"
+  },
+  "devDependencies": {
+    "node": "^16.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluffyair/Cjyn.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/fluffyair/Cjyn/issues"
+  },
+  "homepage": "https://github.com/fluffyair/Cjyn#readme"
+}
