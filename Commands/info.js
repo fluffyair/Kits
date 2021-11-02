@@ -11,7 +11,7 @@ module.exports = class info {
         try{
          let infoEmbed = new MessageEmbed()
          .setTitle(`${config.bot_name}`)
-         .setDescription("Just a bot | Made by fluffy#9621")
+         .setDescription("Just a bot | Made by fluffy#9621 | Github [Repo](https://https://github.com/fluffyair/Kits/)")
          .addField("Invite", `[Click Here](https://discordapp.com/oauth2/authorize?client_id=${config.bot_id}&scope=bot&permissions=8)`, true)
          .addField("Develop with help of Djs discord coding server", "[Click Here](https://discord.gg/djs)")
          .addField("Prefix", `${config.prefix}`, true)
