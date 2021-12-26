@@ -3,5 +3,6 @@
     "bot_id": "",
     "color": "",
     "owner": "",
-    "prefix": [""]
+    "prefix": [""],
+    "logs": ""
 }
