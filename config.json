@@ -1,7 +1,7 @@
 {
     "bot_name": "",
     "bot_id": "",
-    "color": "", //hex code
+    "color": "",
     "owner": "",
     "prefix": [""]
 }
