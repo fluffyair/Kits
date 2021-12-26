@@ -38,7 +38,7 @@ client.on('guildCreate', guild => {
   .setDescription(`I have been added to ${guild}\n\`Id: ${guild.id}\`\nMembercount: ${guild.memberCount} members\nRegion: ${guild.region.charAt(0).toUpperCase() + guild.region.substring(1)}\n`)
   .setFooter(`${config.bot_name} Logging`)
   .setColor("GREEN")
-    client.channels.cache.get("904800663953866772").send(add)
+    client.channels.cache.get(config.logs).send(add)
 });
 
 client.on('guildDelete', guild => {
@@ -48,7 +48,7 @@ client.on('guildDelete', guild => {
   .setDescription(`I have been kicked from ${guild}\n\`Id: ${guild.id}\`\nMembercount: ${guild.memberCount} members\nRegion: ${guild.region.charAt(0).toUpperCase() + guild.region.substring(1)}\n`)
   .setFooter(`${config.bot_name} Logging`)
   .setColor("RED")
-    client.channels.cache.get("904800663953866772").send(add)
+    client.channels.cache.get(config.logs).send(add)
 });
 
 client.on("guildMemberAdd", async (member) => {
